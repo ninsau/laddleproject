@@ -1,0 +1,17 @@
+/* Uncomment if you'd like to use Bulma's initial vars here (e.g. $white, $black-ter, etc.) */
+//@import "~bulma/sass/utilities/initial-variables";
+
+/* Default font */
+$family-sans-serif: "serif", "Roboto", "Nunito", "sans-serif";
+
+/* Body background color */
+$body-background-color: #ffffff;
+$primary: #f2c0c0;
+$info: #86A194;
+$grey: #F5F5F5;
+
+/* Import Bulma */
+@import "~bulma/bulma";
+
+// Fonts
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
