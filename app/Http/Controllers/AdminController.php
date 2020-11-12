@@ -45,7 +45,7 @@ class AdminController extends Controller
       $email = $request->post('email');
       $password = $request->post('password');
 
-      if ($email=='admin@laddle.io'&&$password=='mainpassword') {
+      if ($email=='email'&&$password=='passoword') {
         session()->put('adminLogin', 'active');
         return redirect('/main');
       }else {
